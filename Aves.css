@@ -1,0 +1,59 @@
+h1 {
+    list-style-type: none;
+    margin: center;
+    color: blue;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+    text-align: center;
+  }
+
+  body{
+    background-color: green;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Appearance_of_sky_for_weather_forecast%2C_Dhaka%2C_Bangladesh.JPG/640px-Appearance_of_sky_for_weather_forecast%2C_Dhaka%2C_Bangladesh.JPG) ;
+    
+
+} 
+
+  
+  
+  li {
+    float:right
+    
+  }
+  
+  .img-container {
+    float: left;
+    width: 30%;
+    padding: 5px; /* if you want space between the images */
+  }
+  img{
+    width: 300;
+    height: 300;
+    padding: 5px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  a{
+
+    color: blue;
+  }
+
+
+  button{ 
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
+  }
