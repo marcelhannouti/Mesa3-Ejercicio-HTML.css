@@ -1,9 +1,11 @@
-
+html 
+{
+    background-color: orange;
+}
 
 h1 {
     text-align: center;
-    border: 1px solid;
-
+    background-color: orangered;
 }
 
 img {
@@ -34,6 +36,10 @@ p {
 
 .volver
 {
+    float:right;
     position:fixed;
-    bottom:-20px;
+    bottom:-10px;
+    background-color: orangered;
+    padding: 5px;
+    margin: 5px;
 }
