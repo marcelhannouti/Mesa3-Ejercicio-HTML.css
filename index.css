@@ -21,3 +21,11 @@ ul {
   li a:hover:not(.active) {
     background-color:red;
   }
+  h1{
+    text-align: center;
+    color: #4CAF50;
+    
+}
+body{
+    background-color: yellow;
+}
